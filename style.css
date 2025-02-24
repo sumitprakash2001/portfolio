@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+
+/*==================== body =====================*/
+body{
+    background-color: rgba(5, 11, 94, 0.836);
+    position:static;
+}
+
+/* ============================================== */
+
+/* =========navbar =============== */
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(36, 23, 219, 0.836);
+    text-align: right;
+    margin: 0%;
+    padding: 0%;
+    text-align-last: auto; 
+    /* position: fixed; */
+
+
+}
+
+.nav a{
+    font-size: 20px;
+    padding: 0% 8px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(233, 227, 227); 
+    margin: 0%;
+    text-align: center;
+}
+
+.nav a:hover{
+background-color: rgb(77, 77, 182);
+font-size: 23px;
+border-radius: 5%;
+width: 50px;
+}
+/* ========================================== */
+
+/* ================First Section============== */
+.name{
+    color: blueviolet;
+}
+
+.First-Section{
+    display: flex;
+    height: 650px;
+    
+}
+/* .First-Section{
+    display: flex;
+    height: 50px;
+    border-top: 6px solid gold;
+} */
+/* =============First left ================= */
+.Left-section{
+    
+flex: 1;
+margin: 0%;
+text-align: center;
+padding-top: 10%;
+font-size: xx-large;
+line-height: 50%; 
+font-family: italic;
+color: orange;
+/* text-shadow: 55cap; */
+}
+.text-gray{
+    /* text-gray; */
+}
+/* ================First Right============== */
+.Right-section img{
+    flex: auto;
+    margin: 0%;
+    height: 580px;
+    border-radius: 50%;
+    padding: 0% 0%;
+}
+
+/* ====================================== */
+
+
+/* ==========Second Section ============= */
+
+.aboutMy{
+    text-align: center;
+    padding: 0% 0%;
+    height: 0px;
+    color: chartreuse;
+    border-bottom: 2px solid red;
+    background-color: aqua;
+}
+
+.Second-Section{
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    
+    border-right: 2px solid red;
+}
+
+/* ===========Second Left Section========== */
+
+
+
+.Left2-section{
+    float: left;
+    display: flex;
+    height: 580px;
+    flex: 1;
+    margin: 5% 2%;
+    width: 45%;
+    text-align: left;
+    padding: 4% 0%;
+    height: 580px;
+    font-size: 20px;
+    color: aqua;
+    /* background-color: rgba(0, 0, 0, 0.301); */
+    border: 1px;
+    border-radius: 35px;
+
+}
+.Right2-section{
+    float: right;
+    display: flex;
+    height: 580px;
+    flex: 1;
+    margin: 5% 2%;
+    width: 45%;
+    text-align: left;
+    padding: 4% 0%;
+    height: 580px;
+    font-size: 20px;
+    color: aqua;
+    /* background-color: rgba(0, 0, 0, 0.301); */
+    border: 1px;
+    border-radius: 35px;
+}
+
+/*=============== Second Right Section ==================*/
+
+.Right2-section a{
+color: blue;
+/* margin-right: 7% 2%; */
+padding:right 50%;
+}
+.Right2-section a:hover{
+    color: yellow;
+    }
+.Right2-section{
+    
+}
+
+
+.linkdin{
+    height: 50px;
+}
+
+.github{
+    /* background-color: ; */
+    height: 50px;
+}
+.resume{
+    /* background-color: ; */
+    height: 50px;
+}
+.facebook{
+    /* background-color: ; */
+    height: 50px;
+}
+
+
+/* =====================Second Section End =========================== */
+
+/* ====================Third Section Start=========================== */
+
+.Third-Section{
+    flex: 1;
+    padding: 8% 10%;
+    height: 560px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: (24, 22, 22, 0.836) ;
+    border-left: 6px solid rgb(7, 219, 7);
+    border-top: 6px solid rgb(7, 219, 7);
+    border-right: 6px solid rgb(7, 219, 7); */
+}
+
+
+.skil {
+    text-align: center;
+    padding: 0% 0%;
+    border-bottom: 3px solid white;
+    color: orangered;
+    margin: 0% 0%;
+}
+.left3-Section{
+    float: left;
+    display: flex;
+    flex: 1;
+    height: 580px;
+    width: 48%;
+    /* background-color: rgba(0, 0, 0, 0.301); */
+    border-radius: 35px;
+    text-align: left;
+    margin: 0% 0%;
+    border: white 2px;
+}
+
+
+.right3-Section{
+    float: right;
+    flex: 1;
+    height: 580px;
+    width: 50%;
+    color: rgba(255, 123, 0, 0.945);
+    /* background-color: rgba(0, 0, 0, 0.301); */
+    border-radius: 35px;
+
+}
+
+
+
+
+/* =======================Third Section End=========================== */
+
+/* =======================Forth Section Start=========================== */
+.Forth-Section{
+    display: flex;
+    flex: 1;
+    padding: 8% 10%;
+    height: 580px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: (24, 22, 22, 0.836) ; */
+    /* border-left: 6px solid rgb(3, 15, 3);
+    border-top: 6px solid rgb(4, 22, 4);
+    border-bottom: 6px solid rgb(4, 22, 4);
+    border-right: 6px solid rgb(4, 22, 4); */
+}
+.pro{
+    
+    padding: 0% 10%;
+    color: chocolate;
+}
+
+.form{
+ background-color: aqua;
+ padding: 0% 0%;
+}
+
+.nam{
+    height: 5px;
+    padding: 5px 5px;
+    color: blueviolet;
+}
+.mail{
+    height: 5px;
+    padding: 50px 50px;
+    color: blueviolet;
+}
+.msg{
+    height: 5px;
+    color: blueviolet;
+}
+.btn{
+    height: 5px;
+    padding: 100px 100px;
+    color: black;
+}
+.form{
+    background-color:rgba(75, 54, 54, 0.301);
+}
+.link{
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 330px;
+    width: 400px;
+}
+
+/* =============================Forth Section End =========================== */
+/* ================Footer================== */
+.footer{
+    flex: 1;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0%;
+    background-color: rgba(19, 62, 87, 0.836);
+    font-size: 26px;
+    color: black;
+    text-align: center;  
+}
